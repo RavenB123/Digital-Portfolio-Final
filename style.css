@@ -8,7 +8,11 @@
 }
 
 body {
-  background: #101b2d;
+  background-color: #101b2d;
+  background-image: url("./background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #202b45;
   font-family: "DM Sans", sans-serif;
 }
