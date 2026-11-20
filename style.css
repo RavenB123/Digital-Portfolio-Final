@@ -28,18 +28,22 @@ body {
 }
 
 
+
 .desktop {
   min-height: 100vh;
   position: relative;
   overflow: hidden;
 
-  background-color: #d9e4ef;
-  background-image: url("/Digital-Portfolio-Final/photos/background.jpeg");
+  background:
+    linear-gradient(#07122655, #07122622),
+    url("https://ravenb123.github.io/Digital-Portfolio-Final/photos/background.jpeg");
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
+  background-attachment: fixed;
 }
+
 
 
 /* TOP BAR */
